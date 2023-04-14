@@ -8,7 +8,7 @@
   <body>
       <header>
          <h1><i>Team [Blank] Introduction and First Meeting</i></h1>
-         <div id="#date"><strong>Date:</strong> MM/DD/YYYY</div>
+         <div id="#date"><strong>Date: MM/DD/YYYY</strong></div>
          <nav>
             <a href="">Past Meeting Notes</a>
             <details>
@@ -17,12 +17,12 @@
                   <li><a href="#attendees">Attendees</a></li>
                   <li><a href="#absentees">Absentees</a></li>
                   <li><a href="#agenda">Agenda</a></li>
-                  <li><a href="#unfinished buisness">Buisness From Last Meeting</a></li>
-                  <li><a href="#new buisness">New Besiness</a></li>
+                  <li><a href="#unfinished-buisness">Buisness From Last Meeting</a></li>
+                  <li><a href="#new-buisness">New Besiness</a></li>
                   <li><a href="#misc"> Miscellaneous Notes</a></li>
                   <li><a href="#diagrams">Diagrams</a></li>
-                  <li><a href="recordings">Recordings</a></li> 
-                  <li><a href="feedback">Feedback Form</a></li>               
+                  <li><a href="#recordings">Recordings</a></li> 
+                  <li><a href="#feedback">Feedback Form</a></li>               
                </ul>
             </details>
          </nav>
@@ -65,13 +65,13 @@
                </section>
             </li>
             <li>
-               <section id="unfinished buisness">
+               <section id="unfinished-buisness">
                   <h2>Buisness From Last Meeting</h2>
                   <p><em>None.</em> This is the first meeting</p>
                </section>               
             </li>
             <li>
-               <section id="new buisness">
+               <section id="new-buisness">
                   <h2>New Buisness</h2>
 
                   <h3>Member Introductions</h3>
@@ -90,8 +90,8 @@
                      <b>MongoDB</b> for the backend 
                   </p>
                   
-                  <p>>
-                     Finalization of developmental tools to be used would be determined <b>next meeting></b>
+                  <p>
+                     Finalization of developmental tools to be used would be determined <b>next meeting</b>.
                   </p>
 
                   <h3>Group Activities</h3>
@@ -131,14 +131,29 @@
                <section id="recordings">
                   <h2>Recordings</h2>
                   <ul>
-                     <li></li>
-                     <li></li>
+                     <li>
+                        <figure>
+                           <figcaption>Listen to the Meeting:</figcaption>
+                           <audio
+                               controls
+                               src="/MultiMedia/audio2641835107.m4a">
+                           </audio>
+                       </figure>
+
+                     </li>
+                     <li>
+                        <p> Watch The Meeting</p>
+                        <video controls width="250">
+                           <source src="/MultiMedia/video2641835107.mp4" type="video/mp4">->
+                       </video>
+
+                     </li>
                   </ul>
                </section>
             </li>
          </ol>
 
-         <form class="form">
+         <form class="form" id="feedback">
             <fieldset>
                <h2>Feedback Form</h2>
                <div>
@@ -157,8 +172,8 @@
                </div>
 
                <div>
-                  <label for="submission-type">Choose A Submission Type:</label>
-                  <input list="submission-type" id="submission choice">
+                  <label for="submission-choice">Choose A Submission Type:</label>
+                  <input list="submission-type" id="submission-choice">
 
                   <datalist id="submission-type">
                      <option value="Technical">
@@ -173,27 +188,27 @@
                <fieldset>
                   <legend>Select an Importance For the Submission:</legend>
                   <div>
-                     <input type="radio" value="urgent" checked>
+                     <input type="radio" value="urgent" id="urgent" checked>
                      <label for="urgent">Urgernt</label>
                   </div>
 
                   <div>
-                     <input type="radio" value="todo" >
+                     <input type="radio" value="todo" id="todo">
                      <label for="todo">Todo</label>
                   </div>
 
                   <div>
-                     <input type="radio" value="minor" >
+                     <input type="radio" value="minor" id="minor" >
                      <label for="minor">Minor</label>
                   </div>
 
                   <div>
-                     <input type="radio" value="note" >
+                     <input type="radio" value="note" id="note" >
                      <label for="note">Note</label>
                   </div>
 
                   <div>
-                     <input type="radio" value="fun" >
+                     <input type="radio" value="fun" id="fun">
                      <label for="fun">Just Want to Submit</label>
                   </div>
                </fieldset>
@@ -202,38 +217,38 @@
                   <legend>How Are You Feeling Today</legend>
 
                   <div>
-                     <input type="checkbox" name="energetic" checked>
+                     <input type="checkbox" name="energetic" id="energetic" checked>
                      <label for="energetic">Bursting with Energy</label>
                   </div>
 
                   <div>
-                     <input type="checkbox" name="happy">
+                     <input type="checkbox" name="happy" id="happy">
                      <label for="happy">Happy</label>
                   </div>
 
                   <div>
-                     <input type="checkbox" name="meh">
+                     <input type="checkbox" name="meh" id="meh">
                      <label for="meh">Just Meh</label>
                   </div>
 
                   <div>
-                     <input type="checkbox" name="sleepy">
+                     <input type="checkbox" name="sleepy" id="sleepy">
                      <label for="sleepy">Sleepy</label>
                   </div>
 
                   <div>
-                     <input type="checkbox" name="sad">
+                     <input type="checkbox" name="sad" id="sad">
                      <label for="sad">Sad</label>
                   </div>
 
                   <div>
-                     <input type="checkbox" name="depressed">
+                     <input type="checkbox" name="depressed" id="depressed">
                      <label for="depressed">Depressed</label>
                   </div>
 
                   <div>
-                     <input type="checkbox" name="dighole">
-                     <label for="dighol">I want to dig a hole and go inside.</label>
+                     <input type="checkbox" name="dighole" id="dighole">
+                     <label for="dighole">I want to dig a hole and go inside.</label>
                   </div>
                </fieldset>
 
@@ -248,8 +263,8 @@
                </div>
 
                <div>
-                  <label for="submission"> Submission Date:</label>
-                  <input type="date" id="submit date">
+                  <label for="submit-date"> Submission Date:</label>
+                  <input type="date" id="submit-date">
                </div>
    
                <button>Submit</button>
@@ -263,10 +278,10 @@
          <span>©Mysterious Company</span>
          
          <p>
-            Mysterious Company <br />
-            4 Privet Drive <br />
-            Little Whinging <br />
-            Surrey <br />
+            Mysterious Company <br/>
+            4 Privet Drive <br/>
+            Little Whinging <br/>
+            Surrey <br/>
          </p>
 
 
