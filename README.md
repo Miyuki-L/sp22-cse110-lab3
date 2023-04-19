@@ -1,4 +1,4 @@
-# Lab 2 - Starter
+# Spring 23 CSE 110 Lab 3
 
 
-[Published site url](https://miyuki-l.github.io/CSE110_Lab2_Starter/)
+[Published site url](https://miyuki-l.github.io/sp23-cse110-lab3/)
