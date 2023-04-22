@@ -4,24 +4,53 @@
 
 #date {
    font-size: 25px;
+   padding-bottom: 10px;
 }
 
+#title {
+   padding-left: 5px;
+   text-align: center;
+}
 h2 {
    text-decoration: underline;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 0px;
+   margin-right: 0px;
 }
 
-p {
-   text-align: start;
-}
 
 fieldset {
    padding: 1em 1em  1em 1em;
+   margin: 20px 0px 20px 0px;
 }
 
 img {
    width:50vmax;
+   max-width: 500px;
    border-style: double ;
    border-width: 5pt;
    border-radius: 2mm;
    border-color: hsla(191, 100%, 40%, 1);
+}
+
+textarea {
+   min-width: 80%;
+   height: 5em;
+   padding-top: 1mm;
+   padding-right: 1mm;
+   padding-bottom: 1mm;
+   padding-left: 1mm;
+}
+
+.entry {
+   padding-top: 10px;
+}
+
+label {
+   padding-right: 5px;
+}
+
+button {
+   margin: auto;
 }

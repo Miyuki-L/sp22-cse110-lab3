@@ -19,7 +19,7 @@
 
 <body>
    <header>
-      <h1 class="heading"><i>Team [Blank] Introduction and First Meeting</i></h1>
+      <h1 class="heading" id="title"><i>Team [Blank] Introduction and First Meeting</i></h1>
       <div id="date"><strong>Date: MM/DD/YYYY</strong></div>
       <nav>
          <a href="">Past Meeting Notes</a>
@@ -173,24 +173,24 @@
       <form class="form" id="feedback">
          <fieldset>
             <h2 class="heading">Feedback Form</h2>
-            <div>
+            <div class="entry">
                <label for="name"> Enter Your Name:</label>
                <input type="text" name="name" id="name" required />
             </div>
-            <div>
+            <div class="entry">
                <label for="email"> Enter Your Email:</label>
                <input type="text" name="email" id="email" required />
             </div>
-            <div>
+            <div class="entry">
                <label for="concerns">
                   Enter Any Questions, Comments, concerns, Wishes, Desires, Hopes,
                   and Dreams:</label>
 
-               <textarea id="concerns" name="concerns" rows="5" cols="100">
+               <textarea id="concerns" name="concerns" >
             </textarea>
             </div>
 
-            <div>
+            <div class="entry">
                <label for="submission-choice">Choose A Submission Type:</label>
                <input list="submission-type" id="submission-choice" />
 
@@ -204,7 +204,7 @@
                </datalist>
             </div>
 
-            <fieldset>
+            <fieldset class="entry">
                <legend>Select an Importance For the Submission:</legend>
                <div>
                   <input type="radio" value="urgent" id="urgent" checked />
@@ -232,7 +232,7 @@
                </div>
             </fieldset>
 
-            <fieldset>
+            <fieldset class="entry">
                <legend>How Are You Feeling Today</legend>
 
                <div>
@@ -271,7 +271,7 @@
                </div>
             </fieldset>
 
-            <div>
+            <div class="entry">
                <label for="pet-select">Do you have a pet?</label>
 
                <select name="pets" id="pet-select">
@@ -281,7 +281,7 @@
                </select>
             </div>
 
-            <div>
+            <div class="entry">
                <label for="submit-date"> Submission Date:</label>
                <input type="date" id="submit-date" />
             </div>
