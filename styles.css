@@ -2,10 +2,26 @@
    color:black;
 }
 
+#date {
+   font-size: 25px;
+}
+
 h2 {
    text-decoration: underline;
 }
 
 p {
    text-align: start;
+}
+
+fieldset {
+   padding: 1em 1em  1em 1em;
+}
+
+img {
+   width:50vmax;
+   border-style: double ;
+   border-width: 5pt;
+   border-radius: 2mm;
+   border-color: hsla(191, 100%, 40%, 1);
 }
