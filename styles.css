@@ -81,3 +81,18 @@ header {
    place-items: center;
    justify-content: center;
 }
+
+button:hover {
+   background-color:rgba(32, 77, 239, 0.741);
+   color:bisque;
+}
+
+a:active {
+   color:brown;;
+}
+
+@media (max-width: 1000px) {
+   html, header {
+      background-color:rgba(150,150,150);
+   }
+ }
