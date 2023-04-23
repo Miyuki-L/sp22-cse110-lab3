@@ -1,17 +1,18 @@
-.heading {
-   color:black;
+.heading { /* Style applied only to headings*/
+   color:black; 
 }
 
-#date {
+#date {  /* Adjust size and padding of date at top of page */
    font-size: 20px;
    padding-bottom: 10px;
 }
 
-#title {
+#title { /* Center align meeting notes title*/
    padding-left: 5px;
    text-align: center;
 }
-h2 {
+
+h2 { /* apply margin and text-decoration to meeting notes section titles*/
    text-decoration: underline;
    margin-top: 10px;
    margin-bottom: 10px;
@@ -20,12 +21,12 @@ h2 {
 }
 
 
-fieldset {
+fieldset { /* apply style to the field set elements in form*/
    padding: 1em 1em  1em 1em;
    margin: 20px 0px 20px 0px;
 }
 
-img {
+img { /* adjust and limit img sizing and apply border styling */
    width:50vmax;
    max-width: 500px;
    border-style: double ;
@@ -34,7 +35,7 @@ img {
    border-color: hsla(191, 100%, 40%, 1);
 }
 
-textarea {
+textarea { /* Style the text area in form to make*/
    min-width: 80%;
    height: 5em;
    padding-top: 1mm;
@@ -43,11 +44,11 @@ textarea {
    padding-left: 1mm;
 }
 
-.entry {
+.entry { /* Add padding between each form entry */
    padding-top: 10px;
 }
 
-label {
+label { /* Adjust spacing between question and input*/
    padding-right: 5px;
 }
 
@@ -55,7 +56,7 @@ button {
    margin: auto;
 }
 
-form {
+form {  /*Aply flex styling to form at bottom of page*/
    display: flex;
    flex-direction: row;
    justify-content: center;
@@ -66,13 +67,13 @@ footer {
    display: inline-block;
 }
 
-header {
+header { /* Have document header always stay at top of page */
    position: sticky;
    top: 0px;
    background-color: rgb(220, 220, 220);
 }
 
-#progress {
+#progress { /* Apply grid formate to formate the progress imputs*/
    display: grid;
    grid-template-columns: 100px 100px;
    grid-template-rows: 80px 80px 80px; 
@@ -82,17 +83,17 @@ header {
    justify-content: center;
 }
 
-button:hover {
+button:hover { /*Change button styling when mouse hovers above the button*/
    background-color:rgba(32, 77, 239, 0.741);
    color:bisque;
 }
 
-a:active {
+a:active { /* change link color the moment when link is clicked */
    color:brown;;
 }
 
-@media (max-width: 1000px) {
-   html, header {
+@media (max-width: 1000px) { 
+   html, header { /* Media query to change background color based on screen size */
       background-color:rgba(150,150,150);
    }
  }
