@@ -3,7 +3,7 @@
 }
 
 #date {
-   font-size: 25px;
+   font-size: 20px;
    padding-bottom: 10px;
 }
 
@@ -53,4 +53,31 @@ label {
 
 button {
    margin: auto;
+}
+
+form {
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+footer {
+   display: inline-block;
+}
+
+header {
+   position: sticky;
+   top: 0px;
+   background-color: rgb(220, 220, 220);
+}
+
+#progress {
+   display: grid;
+   grid-template-columns: 100px 100px;
+   grid-template-rows: 80px 80px 80px; 
+   column-gap: 10px;
+   row-gap: 15px; 
+   place-items: center;
+   justify-content: center;
 }
